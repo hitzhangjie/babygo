@@ -518,10 +518,10 @@ func scannerScan() *TokenContainer {
 }
 
 // --- ast ---
-var astCon string
-var astTyp string
-var astVar string
-var astFun string
+var astCon string = "Con"
+var astTyp string = "Typ"
+var astVar string = "Var"
+var astFun string = "Fun"
 
 type astImportSpec struct {
 	Path string
